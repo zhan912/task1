@@ -1,4 +1,6 @@
-w = input()
-n = int(input())
-for i in range(n):
-    print(w, end=" ")
+a = int(input())
+b = int(input())
+if a > b:
+    print(a)
+else:
+    print(b)
