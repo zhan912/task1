@@ -1,6 +1,6 @@
-n = int(input())
-
-if n == 7:
-    print("Счастливое число!")
+a = int(input())
+b = int(input())
+if a > b:
+    print(a - b)
 else:
-    print("Обычное число")
+    print(b - a)
