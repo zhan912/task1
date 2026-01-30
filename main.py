@@ -1,4 +1,4 @@
-a = int(input())
-b = int(input())
-res = a + b
-print(f"Сумма {a} и {b} равна {res}")
+n = int(input())
+
+if n >= 10 and n <= 20:
+    print("В диапазоне")
