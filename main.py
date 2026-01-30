@@ -1,2 +1,5 @@
-n = int(input())
-print(f"Квадрат числа {n} равен {n ** 2}")
+age = int(input())
+if age >= 18:
+    print("Доступ разрешен")
+else:
+    print("Маловат еще")
