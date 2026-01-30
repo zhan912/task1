@@ -1,2 +1,5 @@
-for i in range(1, 11):
-    print(2 * i, end=" ")
+n = float(input())
+if n > 1000:
+    print(n * 0.9)
+else:
+    print(n)
