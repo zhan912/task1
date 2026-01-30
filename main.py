@@ -1,5 +1,2 @@
-n = int(input())
-if n % 2 == 0:
-    print("четное")
-else:
-    print("нечетное")
+n = input()
+print(f"Привет, {n}!")
