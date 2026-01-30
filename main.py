@@ -1,3 +1,4 @@
-w = input()
-if "а" in w:
-    print("Найдена")
+while True:
+    text = input()
+    if text == "стоп":
+        break
