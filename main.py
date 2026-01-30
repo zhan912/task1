@@ -1,3 +1,3 @@
 name = input()
 job = input()
-print(f"{name} — это отличный {job}!")
+print(f"{name} - это отличный {job}!")
