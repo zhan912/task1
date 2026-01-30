@@ -1,4 +1,4 @@
-i = 1
-while i <= 5:
-    print(i, end=" ")
-    i += 1
+a = int(input())
+b = int(input())
+res = a + b
+print(f"Сумма {a} и {b} равна {res}")
