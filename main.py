@@ -1,3 +1,5 @@
-w = input()
-if "а" in w:
-    print("Найдена")
+t = input()
+if t == "":
+    print("Пусто")
+else:
+    print("Текст есть")
