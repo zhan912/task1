@@ -1,3 +1,2 @@
-n = int(input())
-if not n:
-    print("Это ноль")
+for i in range(1, 11):
+    print(2 * i, end=" ")
