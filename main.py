@@ -1,5 +1,5 @@
-d = input()
-if d == "суббота" or d == "воскресенье":
-    print("Выходной")
-else:
-    print("Работа")
+n = int(input())
+s = 0
+for i in range(1, n + 1):
+    s += i
+print(s)
