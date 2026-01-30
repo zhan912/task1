@@ -1,3 +1,2 @@
-w = input()
-if "а" in w:
-    print("Найдена")
+n = int(input())
+print(f"Результат: {n * 10}")
