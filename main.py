@@ -1,5 +1,3 @@
-a = int(input())
-b = int(input())
-c = int(input())
-if a == 7 or b == 7 or c == 7:
-    print("Все ок")
+n = int(input())
+if n % 2 == 0 and n % 5 == 0:
+    print("Подходит")
