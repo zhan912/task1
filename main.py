@@ -1,4 +1,3 @@
-n = int(input())
-while n >= 0:
-    print(n, end=" ")
-    n -= 1
+a = int(input())
+b = int(input())
+print((a + b) / 2)
