@@ -1,5 +1,3 @@
-d = input()
-if d == "суббота" or d == "воскресенье":
-    print("Выходной")
-else:
-    print("Работа")
+n = int(input())
+if n % 3 == 0:
+    print("Да")
