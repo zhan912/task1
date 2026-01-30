@@ -1,5 +1,2 @@
-d = input()
-if d == "суббота" or d == "воскресенье":
-    print("Выходной")
-else:
-    print("Работа")
+for i in range(5):
+    print(5 - i)
