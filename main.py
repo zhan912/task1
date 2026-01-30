@@ -1,2 +1,3 @@
-for i in range(2, 11, 2):
-    print(i, end=" ")
+w = input()
+if "а" in w:
+    print("Найдена")
