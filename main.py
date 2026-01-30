@@ -1,6 +1,7 @@
-a = int(input())
-b = int(input())
-if a > b:
-    print(a)
+n = int(input())
+if n > 0:
+    print("Плюс")
+elif n < 0:
+    print("Минус")
 else:
-    print(b)
+    print("Ноль")
