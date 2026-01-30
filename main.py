@@ -1,5 +1,2 @@
-n = int(input())
-s = 0
-for i in range(1, n + 1):
-    s += i
-print(s)
+for i in range(2, 11, 2):
+    print(i, end=" ")
