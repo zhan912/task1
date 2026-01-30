@@ -1,7 +1,5 @@
-n = int(input())
-if n > 0:
-    print("Плюс")
-elif n < 0:
-    print("Минус")
+s = input()
+if s == "python123":
+    print("Верно")
 else:
-    print("Ноль")
+    print("Ошибка")
