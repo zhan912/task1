@@ -1,5 +1,8 @@
-n = float(input())
-if n > 1000:
-    print(n * 0.9)
+n = int(input())
+
+if n == 5:
+    print("Отлично")
+elif n == 4:
+    print("Хорошо")
 else:
-    print(n)
+    print("Старайся")
