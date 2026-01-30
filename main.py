@@ -1,6 +1,3 @@
-a = int(input())
-b = int(input())
-if a > b:
-    print(a - b)
-else:
-    print(b - a)
+name = input()
+job = input()
+print(f"{name} — это отличный {job}!")
